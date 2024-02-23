@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkdrive_now_rentals=self.webpackChunkdrive_now_rentals||[]).push([[194],{194:(e,s,n)=>{n.r(s),n.d(s,{default:()=>a});var r=n(579);const a=()=>(0,r.jsx)("div",{children:(0,r.jsx)("h2",{children:"Home page"})})}}]);
+//# sourceMappingURL=194.9bf11306.chunk.js.map

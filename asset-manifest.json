@@ -1,7 +1,10 @@
 {
   "files": {
     "main.css": "/drive-now-rentals/static/css/main.7cda0caf.css",
-    "main.js": "/drive-now-rentals/static/js/main.5f8da493.js",
+    "main.js": "/drive-now-rentals/static/js/main.189de7af.js",
+    "static/js/194.9bf11306.chunk.js": "/drive-now-rentals/static/js/194.9bf11306.chunk.js",
+    "static/js/935.3d5f0677.chunk.js": "/drive-now-rentals/static/js/935.3d5f0677.chunk.js",
+    "static/js/147.237de43d.chunk.js": "/drive-now-rentals/static/js/147.237de43d.chunk.js",
     "static/media/Manrope-Medium.woff": "/drive-now-rentals/static/media/Manrope-Medium.4e55dc20921a95ef83f4.woff",
     "static/media/Manrope-Regular.woff": "/drive-now-rentals/static/media/Manrope-Regular.2046a49b5fa996c43f44.woff",
     "static/media/Manrope-Semibold.woff": "/drive-now-rentals/static/media/Manrope-Semibold.f4e54434d986b1395b3b.woff",
@@ -10,10 +13,13 @@
     "static/media/Manrope-Semibold.woff2": "/drive-now-rentals/static/media/Manrope-Semibold.0d44fe833dd4c7229544.woff2",
     "index.html": "/drive-now-rentals/index.html",
     "main.7cda0caf.css.map": "/drive-now-rentals/static/css/main.7cda0caf.css.map",
-    "main.5f8da493.js.map": "/drive-now-rentals/static/js/main.5f8da493.js.map"
+    "main.189de7af.js.map": "/drive-now-rentals/static/js/main.189de7af.js.map",
+    "194.9bf11306.chunk.js.map": "/drive-now-rentals/static/js/194.9bf11306.chunk.js.map",
+    "935.3d5f0677.chunk.js.map": "/drive-now-rentals/static/js/935.3d5f0677.chunk.js.map",
+    "147.237de43d.chunk.js.map": "/drive-now-rentals/static/js/147.237de43d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7cda0caf.css",
-    "static/js/main.5f8da493.js"
+    "static/js/main.189de7af.js"
   ]
 }
