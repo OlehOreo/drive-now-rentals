@@ -1,13 +1,23 @@
+import { lazy } from 'react';
+import { Navigate, Route, Routes } from 'react-router-dom';
+
+import { Layout } from '../shared/Layout/Layout.jsx';
+
+const HomePage = lazy(() => import('../pages/HomePage/HomePage.jsx'));
+const RentACar = lazy(() => import('../pages/RentACar/RentACarPage.jsx'));
+const FavoritePage = lazy(() => import('../pages/Favorite/FavoritePage.jsx'));
+
 function App() {
   return (
     <div>
-      <h1>Home page</h1>
-      <p style={{ fontWeight: 600 }}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
-        voluptatibus explicabo, dolorum aut incidunt dolore facilis velit eaque
-        praesentium totam fugit officia veniam laudantium iure odit! Praesentium
-        tenetur voluptates eius?
-      </p>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<HomePage />} />
+          <Route path="catalog" element={<RentACar />} />
+          <Route path="favorites" element={<FavoritePage />} />
+          <Route path="*" element={<Navigate to="/" />} />
+        </Route>
+      </Routes>
     </div>
   );
 }
